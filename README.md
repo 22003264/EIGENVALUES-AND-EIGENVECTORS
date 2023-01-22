@@ -11,11 +11,14 @@ To write a python program to find the Eigenvalues and Eigen Vectors
 ### Step 4:Print result 
 
 ## Program:
+```
+name:sirisha onteddu
+ref.no:22003264
 import numpy as np
 A=np.array([[2,2],[1,3]])
 values,vectors=np.linalg.eig(A)
 print("Eigen values are {} and Eigen Vectors are {}".format(values,vectors))
-
+```
 ## Output:
 ![image](https://user-images.githubusercontent.com/119389139/213916437-8e067f8e-8cd9-400e-87b1-f00b86d882ee.png)
 
